@@ -50,6 +50,16 @@ resilience4j:
         maxAttempts: 3
         waitDuration: 2s
 
+messages:
+  student-created: Student created successfully
+  student-updated: Student updated successfully
+  student-patched: Student patched successfully
+  student-deleted: Student deleted successfully
+  student-retrieved: Student retrieved successfully
+  student-list-retrieved: All students retrieved successfully
+  exam-result-retrieved: Exam result fetched successfully
+
+
 logging:
   level:
     root: info
